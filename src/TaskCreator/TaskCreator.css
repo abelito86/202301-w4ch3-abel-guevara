@@ -1,0 +1,28 @@
+.task-creator__form {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  padding-bottom: 2%;
+}
+
+.task-creator__input,
+.task-creator__button {
+  width: 95%;
+  font-size: 1.6rem;
+}
+
+.task-creator__input {
+  height: 55px;
+  margin-top: 2%;
+  text-align: start;
+}
+
+.task-creator__button {
+  background-color: #24a3b5;
+  color: white;
+  margin-top: 2%;
+  height: 55px;
+  border: #24a3b5;
+}
