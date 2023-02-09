@@ -15,6 +15,7 @@ function App() {
       <section className="task-creator">
         <TaskCreator task={handleClick} />
       </section>
+      <div>{currentInput}</div>
     </>
   );
 }
